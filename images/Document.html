@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/gallery.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/style.css">
+    <script src="./Document_files/bootstrap.bundle.min.js.download"></script>
+</head>
+<body>
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+    <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="http://127.0.0.1:5500/gallery.html#">🏅 Olympics</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="http://127.0.0.1:5500/gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+=======
+    <nav class="navbar">
+        <div class="logo">
+            OLYMPICS
+        </div>
+
+        <ul class="menu">
+            <li><a href="http://127.0.0.1:5500/home.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
+            <li><a href="http://127.0.0.1:5500/gallery.html">Gallery</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <h1>Olympics Gallery</h1>
+        <p>Explore the unforgettable moments of the Olympic Games.</p>
+    </section>
+    <section class="gallery">
+
+        <div class="card">
+            <img src="./Document_files/photo-1517649763962-0c623066013b" alt="Olympic Stadium">
+            <h3>Olympic Stadium</h3>
+        </div>
+
+        <div class="card">
+            <img src="./Document_files/photo-1552674605-db6ffd4facb5" alt="100m Sprint">
+            <h3>100m Sprint</h3>
+        </div>
+
+        <div class="card">
+            <img src="./Document_files/photo-1519315901367-f34ff9154487" alt="Swimming">
+            <h3>Swimming</h3>
+        </div>
+
+        <div class="card">
+            <img src="./Document_files/photo-1517838277536-f5f99be501cd" alt="Gymnastics">
+            <h3>Gymnastics</h3>
+        </div>
+
+        <div class="card">
+            <img src="./Document_files/photo-1547347298-4074fc3086f0" alt="Football">
+            <h3>Football</h3>
+        </div>
+
+        <div class="card">
+            <img src="./Document_files/photo-1517649763962-0c623066013b" alt="Basketball">
+            <h3>Basketball</h3>
+        </div>
+
+    </section>
+    <footer>
+        <h2>Olympics 2026 Gallery</h2>
+        <p>Designed by Team Olympics</p>
+        <p>© All Rights Reserved</p>
+    </footer>
+
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; d5d83b2f6cbbfcfadfc856b098244ca0244b07b4
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
